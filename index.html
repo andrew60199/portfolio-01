@@ -7,49 +7,90 @@
         <link href="/assets/reset.css" type="text/css" rel="stylesheet">
         <link href="/assets/style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-        <title>Portfolio</title>
+        <title>AND.EVV Portfolio</title>
     </head>
     <body>
         <!-- Header -->
         <header>
+            <div class="developer-photo">
+                <img src="/Assets/Images/Andrew-Beissmann-2019.jpg" alt="Photograph of Andrew Beissmann taken in Tokyo, Japan in 2019.">
+            </div>
+            <h1>AND.EVV</h1>
+            <p class="sub-heading">Software Development Portfolio</p>
             <ul>
-                <li class="button"><a href="#about">About</a></li>
-                <li class="button"><a href="#work">Work</a></li>
-                <li class="button"><a href="#contact">Contact</a></li>
+                <a class="button" href="#about"><li>About</li></a>
+                <a class="button" href="#work"><li>Work</li></a>
+                <a class="button" href="#contact"><li>Contact</li></a>
             </ul>
         </header>
 
         <!-- Main Content -->
         <main>
-            <!-- Openning section -->
-            <section id="intro" class="intro">
-                <div class="centred-heading">
-                    <h1>Industrial Designer x Full Stack Developer</h1>
-                </div>
-                <div class="full-screen-image"></div>
-            </section>
+            <div class="layered-bg">
+                <!-- About section -->
+                <section id="about" class="about">
+                    <div class="content"
+                        <div class="text">
+                            <h2>About</h2>
+                            <p>Hi my name is Andrew Beissmann and welcome to my software portfolio. Known on GitHub as AND.EVV, whcih is a pseudonym that arranges my legal name it include the abbreviation DEV.</p>
+                            <p>I have a degree in Industrial Design and am currently working toward also being a Full Stack Developer.</p>
+                            <p>Check out some of my project below and reach out if you&rsquo;d like to collaborate!</p>
+                        </div>
+                    </div>
+                </section>
 
-            <!-- About section -->
-            <section id="about" class="about">
-                
-                
-            </section>
-
-            <!-- Projects section -->
-            <section id="work">
-
-            </section>
-
-            <!-- Contact section -->
-            <section id="contact">
-
-            </section>
-
+                <!-- Projects section -->
+                <section id="work">
+                    <div class="work">
+                      <h2>Work</h2>
+                        <figure>
+                            <a class="image-link" href="https://andrew60199.github.io/challenge-refactoring-01/" target="_blank">
+                                <img src="./Assets/Images/Challenge-Refactoring-01-Screenshot.PNG" alt="">
+                            </a>
+                            <figcaption>
+                                <h3>Code Refactoring</h3>
+                                <p>Tasked with some code refactoring, this attempt has helped develop my skills towards becoming a full stack developer. The code needed a little work, I had to fix the HTML semantics and add in alternative text to improve accessiblity. It was also a fresher in the GitHub version control workflow.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="supporting">
+                            <img src="./Assets/Images/pre-work.PNG" alt="">
+                            <figcaption>
+                                <h3>Pre-work Study Guide</h3>
+                                <p>In preparation to learn Full Stack Development through a coding bootcamp, the students were tasked with making a study guide.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="supporting">
+                            
+                                <img src="./Assets/Images/Fotomatic-challenge.PNG" alt="Side by side comparison of the website before and after I debugged the code base.">
+                            </a>
+                            <figcaption>
+                                <h3>Fotomatic</h3>
+                                <p>In addition to enrolling in the coding bootcamp course I have also been completing Codecademy&rsquo;s Pro Career Path &lsquo;Front-End Engineer&rsquo;. The task required reading through documentation and debugging the files. Doing so was a valuable learning experience.</p>
+                            </figcaption>
+                        </figure>
+                        <div class="coming-soon">
+                            <h3 >Coming soon</h3>
+                            <p>There is some more projects in the works. Which I cannot wait to share with the world.</p>
+                        </div>        
+                    </div>
+                </section>               
+            </div>
         </main>
 
         <!-- Footer -->
-        <footer>
-
+        <footer id="contact">
+            <!-- Contact section -->
+            <div class="contact">
+                <h2>Let collaborate!</h2>
+                <div class="ex-link">
+                    <p><strong>Email:</strong> andrew60199@gmail.com</p>
+                </div>
+                <a href="https://www.linkedin.com/in/andrew-beissmann/" target="_blank">
+                    <div class="ex-link">
+                        <p><strong>Linkedin:</strong> Andrew Beissmann</p>
+                    </div>
+                </a>
+            </div>
         </footer>
     </body>
 </html>
